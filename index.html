@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Avant</title>
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Agência</p>
+            <h1>A<span>V</span>ANT</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#agendamento">Agendamento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="#agendamento" class="btn-agendar">Agende agora</a>
+    </header>
+
+    <section class="inicio" id="inicio">
+        <div class="inicio-content">
+            <h2>Transdormamos ideias em <span>designs e vídeos memoráveis</span></h2>
+            <p>Especialistas em design gráfico, produção de vídeos e fotografia profissional para sua marca brilhar.</p>
+            <div class="inicio-buttns">
+                <a href="#agendamento" class="btn-dourado">Solicitar Orçamento</a>
+                <a href="#portfolio" class="btn-branco">Ver Portfólio</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <h2>O que fazemos</h2>
+        <p>Conhaça nossos serviços para destacar sua marca</p>
+        <div class="servicos-container">
+            <div class="servico">
+                <img src="imagens/fa-paint-brush.png" alt="Design Gráfico">
+                <h3>Design Gráfico</h3>
+                <p>Criamos logotipos, banners e artes profissionais.</p>
+            </div>
+            <div class="servico">
+                <img src="imagens/fa-video.png" alt="Produção de Vídeos">
+                <h3>Produção de Vídeos</h3>
+                <p>Produzimos vídeos de alta qualidade para sua marca.</p>
+            </div>
+            <div class="servico">
+                <img src="imagens/fa-camera.png" alt="Fotografia Profissional">
+                <h3>Fotografia Profissional</h3>
+                <p>Fotos incríveis que destacam sua marca e produtos.</p>
+            </div>
+            <div class="servico">
+                <img src="imagens/fa-calendar-check.png" alt="Agendamento de Marketing">
+                <h3>Agendamento de Marketing.</h3>
+                <p>Organizamos posts, campanhas e ações de marketing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Confira alguns dos nossos trabalhos e criações</p>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="imagens/projeto-1.jpg" alt="Projeto 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="imagens/projeto-2.jpg" alt="Projeto 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="imagens/projeto-3.jpg" alt="Projeto 3">
+            </div>
+            <div class="portfolio-item">
+                <img src="imagens/projeto-4.jpg" alt="Projeto 4">
+            </div>
+        </div>
+
+    </section>
+
+        <section class="agendamento" id="agendamento">
+            <h2>Agende seu serviço</h2>
+            <p>Escolha o serviço, data e horário. Entraremos em contao!</p>
+
+            <form>
+                <input type="text" placeholder="Seu nome">
+                <input type="email" placeholder="Seu e-mail">
+                <select required>
+                    <option value="">Selecione o serviço</option>
+                    <option value="design">Design Gráfico</option>
+                    <option value="video">Produção de Vídeos</option>
+                    <option value="foto">Fotografia</option>
+                    <option value="marketing">Marketing</option>
+                </select>
+                <input type="date" required>
+                <input type="time" required>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <a href="https://wa.me/5583998115805" target="_blank" class="btn-whatsapp" id="contato">Fale conosco no Whatsapp</a>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h3>Agência Avant</h3>
+                    <p>Soluçôes criativas para seu negócio</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Links rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#agendamento">Agendamento</a></li>
+                    </ul>
+                </div>
+
+                <!--
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <a href="#"><i class="fa-instagram"></i></a>
+                    <a href="#"><i class="fa-facebook"></i></a>
+                    <a href="#"><i class="fa-youtube"></i></a>
+                </div>
+            -->
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Agência Avant. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
